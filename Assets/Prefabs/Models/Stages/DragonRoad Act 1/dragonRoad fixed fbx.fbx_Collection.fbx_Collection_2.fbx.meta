@@ -1,0 +1,729 @@
+fileFormatVersion: 2
+guid: 1394087de8278304fb3bb9de52b57003
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: stg041_a_A34_Mesh_0000
+    100004: stg041_a_A34_Mesh_0001
+    100006: stg041_a_A34_Mesh_0003
+    100008: stg041_a_A34_Mesh_0004
+    100010: stg041_o_A10_Mesh_0000
+    100012: stg041_o_A10_Mesh_0001
+    100014: stg041_o_A10_Mesh_0002
+    100016: stg041_o_A10_Mesh_0004
+    100018: stg041_o_A10_Mesh_0005
+    100020: stg041_o_A10_Mesh_0006
+    100022: stg041_o_A10_Mesh_0008
+    100024: stg041_o_A10_Mesh_0009
+    100026: stg041_o_A10_Mesh_0010
+    100028: stg041_o_A10_Mesh_0011
+    100030: stg041_o_A10_Mesh_0012
+    100032: stg041_o_A15_Mesh_0001
+    100034: stg041_o_A15_Mesh_0009
+    100036: stg041_o_A15_Mesh_0010
+    100038: stg041_o_A15_Mesh_0011
+    100040: stg041_o_A16_Mesh_0000
+    100042: stg041_o_A17_Mesh_0015
+    100044: stg041_o_A17_Mesh_0016
+    100046: stg041_o_A17_Mesh_0017
+    100048: stg041_o_A17_Mesh_0018
+    100050: stg041_o_A17_Mesh_0022
+    100052: stg041_o_A17_Mesh_0024
+    100054: stg041_o_A17_Mesh_0025
+    100056: stg041_o_A17_Mesh_0027
+    100058: stg041_o_A19_Mesh_0009
+    100060: stg041_o_A21_Mesh_0001
+    100062: stg041_o_A23_Mesh_0004
+    100064: stg041_o_A23_Mesh_0007
+    100066: stg041_og_A17_Mesh_0000
+    100068: stg041_og_A17_Mesh_0001
+    100070: stg041_og_A17_Mesh_0002
+    100072: stg041_og_A22_Mesh_0000
+    100074: stg041_og_A22_Mesh_0001
+    100076: stg041_og_A22_Mesh_0002
+    100078: stg041_og_A23_Mesh_0001
+    100080: stg041_og_A23_Mesh_0003
+    400000: //RootNode
+    400002: stg041_a_A34_Mesh_0000
+    400004: stg041_a_A34_Mesh_0001
+    400006: stg041_a_A34_Mesh_0003
+    400008: stg041_a_A34_Mesh_0004
+    400010: stg041_o_A10_Mesh_0000
+    400012: stg041_o_A10_Mesh_0001
+    400014: stg041_o_A10_Mesh_0002
+    400016: stg041_o_A10_Mesh_0004
+    400018: stg041_o_A10_Mesh_0005
+    400020: stg041_o_A10_Mesh_0006
+    400022: stg041_o_A10_Mesh_0008
+    400024: stg041_o_A10_Mesh_0009
+    400026: stg041_o_A10_Mesh_0010
+    400028: stg041_o_A10_Mesh_0011
+    400030: stg041_o_A10_Mesh_0012
+    400032: stg041_o_A15_Mesh_0001
+    400034: stg041_o_A15_Mesh_0009
+    400036: stg041_o_A15_Mesh_0010
+    400038: stg041_o_A15_Mesh_0011
+    400040: stg041_o_A16_Mesh_0000
+    400042: stg041_o_A17_Mesh_0015
+    400044: stg041_o_A17_Mesh_0016
+    400046: stg041_o_A17_Mesh_0017
+    400048: stg041_o_A17_Mesh_0018
+    400050: stg041_o_A17_Mesh_0022
+    400052: stg041_o_A17_Mesh_0024
+    400054: stg041_o_A17_Mesh_0025
+    400056: stg041_o_A17_Mesh_0027
+    400058: stg041_o_A19_Mesh_0009
+    400060: stg041_o_A21_Mesh_0001
+    400062: stg041_o_A23_Mesh_0004
+    400064: stg041_o_A23_Mesh_0007
+    400066: stg041_og_A17_Mesh_0000
+    400068: stg041_og_A17_Mesh_0001
+    400070: stg041_og_A17_Mesh_0002
+    400072: stg041_og_A22_Mesh_0000
+    400074: stg041_og_A22_Mesh_0001
+    400076: stg041_og_A22_Mesh_0002
+    400078: stg041_og_A23_Mesh_0001
+    400080: stg041_og_A23_Mesh_0003
+    2100000: chn_na_wood02.png
+    2100002: chn_na_wave00.png
+    2100004: chn_na_addlight01.png
+    2100006: chn_na_fenece02.png
+    2100008: chn_na_wood00.png
+    2100010: chn_na_brick04.png
+    2100012: chn_na_brick03.png
+    2100014: chn_na_ground03.png
+    2100016: chn_na_rockwall02.png
+    2100018: chn_na_ground04.png
+    2100020: chn_na_brick00.png
+    2100022: chn_na_handrail02.png
+    2100024: chn_na_brick02.png
+    2100026: chn_na_stair00.png
+    2100028: chn_na_line01.png
+    2100030: chn_na_mortarwall00.png
+    2100032: chn_na_house02.png
+    2100034: chn_na_handrail01.png
+    2100036: chn_na_stoneroof02.png
+    2100038: chn_na_stoneroof00.png
+    2100040: chn_na_stoneroof01.png
+    2100042: chn_na_line00.png
+    2100044: chn_na_stoneroof03.png
+    2100046: chn_na_handrail00.png
+    2100048: chn_na_piller00.png
+    2100050: chn_na_lotus00.png
+    2100052: chn_na_fenece00.png
+    2100054: chn_na_lake00.png
+    2100056: chn_na_house00.png
+    2100058: chn_na_house01.png
+    2100060: chn_na_brick05.png
+    2100062: chn_na_house04.png
+    2100064: chn_na_rockwall00.png
+    2100066: chn_na_passage00.png
+    2100068: chn_na_tree01.png
+    2100070: chn_na_lotus01.png
+    2100072: chn_na_flower00.png
+    2100074: chn_na_rockwall01.png
+    2100076: chn_na_tree05.png
+    2100078: chn_na_tree06.png
+    2300000: stg041_a_A34_Mesh_0000
+    2300002: stg041_a_A34_Mesh_0001
+    2300004: stg041_a_A34_Mesh_0003
+    2300006: stg041_a_A34_Mesh_0004
+    2300008: stg041_o_A10_Mesh_0000
+    2300010: stg041_o_A10_Mesh_0001
+    2300012: stg041_o_A10_Mesh_0002
+    2300014: stg041_o_A10_Mesh_0004
+    2300016: stg041_o_A10_Mesh_0005
+    2300018: stg041_o_A10_Mesh_0006
+    2300020: stg041_o_A10_Mesh_0008
+    2300022: stg041_o_A10_Mesh_0009
+    2300024: stg041_o_A10_Mesh_0010
+    2300026: stg041_o_A10_Mesh_0011
+    2300028: stg041_o_A10_Mesh_0012
+    2300030: stg041_o_A15_Mesh_0001
+    2300032: stg041_o_A15_Mesh_0009
+    2300034: stg041_o_A15_Mesh_0010
+    2300036: stg041_o_A15_Mesh_0011
+    2300038: stg041_o_A16_Mesh_0000
+    2300040: stg041_o_A17_Mesh_0015
+    2300042: stg041_o_A17_Mesh_0016
+    2300044: stg041_o_A17_Mesh_0017
+    2300046: stg041_o_A17_Mesh_0018
+    2300048: stg041_o_A17_Mesh_0022
+    2300050: stg041_o_A17_Mesh_0024
+    2300052: stg041_o_A17_Mesh_0025
+    2300054: stg041_o_A17_Mesh_0027
+    2300056: stg041_o_A19_Mesh_0009
+    2300058: stg041_o_A21_Mesh_0001
+    2300060: stg041_o_A23_Mesh_0004
+    2300062: stg041_o_A23_Mesh_0007
+    2300064: stg041_og_A17_Mesh_0000
+    2300066: stg041_og_A17_Mesh_0001
+    2300068: stg041_og_A17_Mesh_0002
+    2300070: stg041_og_A22_Mesh_0000
+    2300072: stg041_og_A22_Mesh_0001
+    2300074: stg041_og_A22_Mesh_0002
+    2300076: stg041_og_A23_Mesh_0001
+    2300078: stg041_og_A23_Mesh_0003
+    3300000: stg041_a_A34_Mesh_0000
+    3300002: stg041_a_A34_Mesh_0001
+    3300004: stg041_a_A34_Mesh_0003
+    3300006: stg041_a_A34_Mesh_0004
+    3300008: stg041_o_A10_Mesh_0000
+    3300010: stg041_o_A10_Mesh_0001
+    3300012: stg041_o_A10_Mesh_0002
+    3300014: stg041_o_A10_Mesh_0004
+    3300016: stg041_o_A10_Mesh_0005
+    3300018: stg041_o_A10_Mesh_0006
+    3300020: stg041_o_A10_Mesh_0008
+    3300022: stg041_o_A10_Mesh_0009
+    3300024: stg041_o_A10_Mesh_0010
+    3300026: stg041_o_A10_Mesh_0011
+    3300028: stg041_o_A10_Mesh_0012
+    3300030: stg041_o_A15_Mesh_0001
+    3300032: stg041_o_A15_Mesh_0009
+    3300034: stg041_o_A15_Mesh_0010
+    3300036: stg041_o_A15_Mesh_0011
+    3300038: stg041_o_A16_Mesh_0000
+    3300040: stg041_o_A17_Mesh_0015
+    3300042: stg041_o_A17_Mesh_0016
+    3300044: stg041_o_A17_Mesh_0017
+    3300046: stg041_o_A17_Mesh_0018
+    3300048: stg041_o_A17_Mesh_0022
+    3300050: stg041_o_A17_Mesh_0024
+    3300052: stg041_o_A17_Mesh_0025
+    3300054: stg041_o_A17_Mesh_0027
+    3300056: stg041_o_A19_Mesh_0009
+    3300058: stg041_o_A21_Mesh_0001
+    3300060: stg041_o_A23_Mesh_0004
+    3300062: stg041_o_A23_Mesh_0007
+    3300064: stg041_og_A17_Mesh_0000
+    3300066: stg041_og_A17_Mesh_0001
+    3300068: stg041_og_A17_Mesh_0002
+    3300070: stg041_og_A22_Mesh_0000
+    3300072: stg041_og_A22_Mesh_0001
+    3300074: stg041_og_A22_Mesh_0002
+    3300076: stg041_og_A23_Mesh_0001
+    3300078: stg041_og_A23_Mesh_0003
+    4300000: stg041_a_A34_Mesh_0000
+    4300002: stg041_a_A34_Mesh_0001
+    4300004: stg041_a_A34_Mesh_0003
+    4300006: stg041_a_A34_Mesh_0004
+    4300008: stg041_og_A17_Mesh_0000
+    4300010: stg041_og_A17_Mesh_0001
+    4300012: stg041_og_A17_Mesh_0002
+    4300014: stg041_og_A22_Mesh_0000
+    4300016: stg041_og_A22_Mesh_0001
+    4300018: stg041_og_A22_Mesh_0002
+    4300020: stg041_og_A23_Mesh_0001
+    4300022: stg041_og_A23_Mesh_0003
+    4300024: stg041_o_A10_Mesh_0000
+    4300026: stg041_o_A10_Mesh_0001
+    4300028: stg041_o_A10_Mesh_0002
+    4300030: stg041_o_A10_Mesh_0004
+    4300032: stg041_o_A10_Mesh_0005
+    4300034: stg041_o_A10_Mesh_0006
+    4300036: stg041_o_A10_Mesh_0008
+    4300038: stg041_o_A10_Mesh_0009
+    4300040: stg041_o_A10_Mesh_0010
+    4300042: stg041_o_A10_Mesh_0011
+    4300044: stg041_o_A10_Mesh_0012
+    4300046: stg041_o_A15_Mesh_0001
+    4300048: stg041_o_A15_Mesh_0009
+    4300050: stg041_o_A15_Mesh_0010
+    4300052: stg041_o_A15_Mesh_0011
+    4300054: stg041_o_A16_Mesh_0000
+    4300056: stg041_o_A17_Mesh_0015
+    4300058: stg041_o_A17_Mesh_0016
+    4300060: stg041_o_A17_Mesh_0017
+    4300062: stg041_o_A17_Mesh_0018
+    4300064: stg041_o_A17_Mesh_0022
+    4300066: stg041_o_A17_Mesh_0024
+    4300068: stg041_o_A17_Mesh_0025
+    4300070: stg041_o_A17_Mesh_0027
+    4300072: stg041_o_A19_Mesh_0009
+    4300074: stg041_o_A21_Mesh_0001
+    4300076: stg041_o_A23_Mesh_0004
+    4300078: stg041_o_A23_Mesh_0007
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chn_na_addlight01
+    second: {fileID: 2100000, guid: 1fec0106fcfc60c45a829f1e9773cf5f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chn_na_addlight01.png
+    second: {fileID: 2100000, guid: 47e5e6b378840e544a173a0764489c5e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chn_na_brick00
+    second: {fileID: 2100000, guid: 5ebe9970b653e4c48866c70854f16564, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chn_na_brick00.png
+    second: {fileID: 2100000, guid: 231c2a5474a8e8f489cece7e3c0e668c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chn_na_brick02
+    second: {fileID: 2100000, guid: c704fe94932af7f4bbe49d472d23b626, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chn_na_brick02.png
+    second: {fileID: 2100000, guid: b11ecaa0eff4a25489b21d4f07e4b1d1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chn_na_brick03
+    second: {fileID: 2100000, guid: 1d85bc1057b414e4cbf0577660cb0b2e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chn_na_brick03.png
+    second: {fileID: 2100000, guid: 58498c681cddac7499d17b88f096b921, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chn_na_brick04
+    second: {fileID: 2100000, guid: 7816800370e3f3743abeee59a443254b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chn_na_brick04.png
+    second: {fileID: 2100000, guid: 761283048be92a74ba185e8ebd9f4960, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chn_na_brick05
+    second: {fileID: 2100000, guid: 6e0c2c2c2cc6d084d876dfafb42bf2e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chn_na_brick05.png
+    second: {fileID: 2100000, guid: e4968ef1cabdcc3489f307b6364b927f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chn_na_fenece00
+    second: {fileID: 2100000, guid: ca9df07b5d741934e99b5a820fe82e62, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chn_na_fenece00.png
+    second: {fileID: 2100000, guid: 1c9a37a2c6c29a74c891a761c2523a03, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chn_na_fenece02
+    second: {fileID: 2100000, guid: 845f892ef228a9748a3ae95109cbcfd8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chn_na_fenece02.png
+    second: {fileID: 2100000, guid: 3b49ad176faef2147aea8b49aca28b80, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chn_na_flower00
+    second: {fileID: 2100000, guid: c166078d48dea9549a974a63cacf2e43, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chn_na_flower00.png
+    second: {fileID: 2100000, guid: 4e47633fb1ef1714ba9e8d75b93daeef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chn_na_ground03
+    second: {fileID: 2100000, guid: ea38b0d49fa10d54897b9c61f09aed30, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chn_na_ground03.png
+    second: {fileID: 2100000, guid: 26246ea228f560142a3c7432965c11aa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chn_na_ground04
+    second: {fileID: 2100000, guid: f2268fb08048f924e98a6134e6b9539f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chn_na_ground04.png
+    second: {fileID: 2100000, guid: 09402df5e3703b341a8040733b1e1f95, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chn_na_handrail00
+    second: {fileID: 2100000, guid: 600ba1c6ad86dcf468055795185d6b56, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chn_na_handrail00.png
+    second: {fileID: 2100000, guid: 1a89a7a405622044dae1876331a22d16, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chn_na_handrail01
+    second: {fileID: 2100000, guid: fe89dfb6417fbee4dbeebe8084cc61bf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chn_na_handrail01.png
+    second: {fileID: 2100000, guid: 08b1ca06701a47144893238fb93b32af, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chn_na_handrail02
+    second: {fileID: 2100000, guid: af4fb579c15a10b4abe3e1dd4bf57bde, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chn_na_handrail02.png
+    second: {fileID: 2100000, guid: ff41cc66ff3149a46b56bba773826d7a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chn_na_house00
+    second: {fileID: 2100000, guid: 263ceb79fddcb474784fb46cc9cff0e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chn_na_house00.png
+    second: {fileID: 2100000, guid: 1686de1c482c9b34e8d5f2f121d2f6fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chn_na_house01
+    second: {fileID: 2100000, guid: 8d88f4858ad608c44a9e559dc069d830, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chn_na_house01.png
+    second: {fileID: 2100000, guid: 88ce9cc94944825458f5609f7c014e3b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chn_na_house02
+    second: {fileID: 2100000, guid: 6da16c4ace917654fb6ca31fcfd6a2be, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chn_na_house02.png
+    second: {fileID: 2100000, guid: 76562244d7a92e54dacfc36247b68d2b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chn_na_house04
+    second: {fileID: 2100000, guid: 35c64c79720064d44adff88ecaa13642, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chn_na_house04.png
+    second: {fileID: 2100000, guid: cfe59f3221b66c44488aff99f2c0d115, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chn_na_lake00
+    second: {fileID: 2100000, guid: f7126b1189e89254aa60b90b4cefa0ac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chn_na_lake00.png
+    second: {fileID: 2100000, guid: 57adf83b28bb4614f8d483ce78e1aa0f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chn_na_line00
+    second: {fileID: 2100000, guid: bf4644c9f0c86e34ba454e65c72fb1c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chn_na_line00.png
+    second: {fileID: 2100000, guid: 79c4a8eba4faf4b4598fd28e00319ba9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chn_na_line01
+    second: {fileID: 2100000, guid: 25493f98b5bfd2b4788e6ba7b52b3063, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chn_na_line01.png
+    second: {fileID: 2100000, guid: 403091b2f2f694f45ba22e5eccaea446, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chn_na_lotus00
+    second: {fileID: 2100000, guid: 0d81c255574c2364b87d3b6598226a56, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chn_na_lotus00.png
+    second: {fileID: 2100000, guid: 3b6a6ad2bf709ff4b9bc4f1c86ba716b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chn_na_lotus01
+    second: {fileID: 2100000, guid: 24c2b106d6203994097fdbbb83bb9044, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chn_na_lotus01.png
+    second: {fileID: 2100000, guid: 93bddb0b25c01094a92b8159028754dd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chn_na_mortarwall00
+    second: {fileID: 2100000, guid: f99186c25420bc34bb4ed3bdc580a55e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chn_na_mortarwall00.png
+    second: {fileID: 2100000, guid: c018418c6e449944f8890fe09b4b4ea4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chn_na_passage00
+    second: {fileID: 2100000, guid: 083f326f1152c45419c5968394266c8a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chn_na_passage00.png
+    second: {fileID: 2100000, guid: 7cede21cc70cc6848ad3a24d6728a703, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chn_na_piller00
+    second: {fileID: 2100000, guid: 7b2d3e2ed4c1953409c22160731ff8c9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chn_na_piller00.png
+    second: {fileID: 2100000, guid: a7339e5a27aec8149b66bf663cf7ad75, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chn_na_rockwall00
+    second: {fileID: 2100000, guid: 5de46360567fdd34b8260e47105c0391, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chn_na_rockwall00.png
+    second: {fileID: 2100000, guid: c6d061ecc73a55741994fd1d43b8e1c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chn_na_rockwall01
+    second: {fileID: 2100000, guid: 43f834dbc8ff98d4ca86d24170d9c067, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chn_na_rockwall01.png
+    second: {fileID: 2100000, guid: 684d86cf32fd397408b947893d20eb19, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chn_na_rockwall02
+    second: {fileID: 2100000, guid: 50c59f79230a80a4ab738f114d80f39e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chn_na_rockwall02.png
+    second: {fileID: 2100000, guid: cdbd98ed9f710ec47b4f378d22bd2c6f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chn_na_stair00
+    second: {fileID: 2100000, guid: adbecf161b9a5c943904fdc73d388dff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chn_na_stair00.png
+    second: {fileID: 2100000, guid: 17a746f69234553409d5406ba5db61d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chn_na_stoneroof00
+    second: {fileID: 2100000, guid: ea7e867c38ab24448b90fb6716839f54, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chn_na_stoneroof00.png
+    second: {fileID: 2100000, guid: 614df70e80a32d24f8262025b199d0d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chn_na_stoneroof01
+    second: {fileID: 2100000, guid: ccc6d516b65b63244903bec4d6f016b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chn_na_stoneroof01.png
+    second: {fileID: 2100000, guid: 7e1484899b870f548a2828be5744dfeb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chn_na_stoneroof02
+    second: {fileID: 2100000, guid: bf88bfd9897002f418c4ea1b8842b499, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chn_na_stoneroof02.png
+    second: {fileID: 2100000, guid: fffad3ab6c1147e448745e2bec1e78c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chn_na_stoneroof03
+    second: {fileID: 2100000, guid: 49d39a1f995ce104b9c92bea7ad0262e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chn_na_stoneroof03.png
+    second: {fileID: 2100000, guid: c95cecd8107490e42b6e473cfc8109d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chn_na_tree01
+    second: {fileID: 2100000, guid: 3249a7670fe98114aacda63f0172224f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chn_na_tree01.png
+    second: {fileID: 2100000, guid: cc3eb55bec303844e9b7a4d48fa39e91, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chn_na_tree05
+    second: {fileID: 2100000, guid: 538445d27f13b2748b56abc397bcbc55, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chn_na_tree05.png
+    second: {fileID: 2100000, guid: 0909c883c5a873f45935909fcef546c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chn_na_tree06
+    second: {fileID: 2100000, guid: dd2726f2e8032fc4d9aac49507c402ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chn_na_tree06.png
+    second: {fileID: 2100000, guid: d17223249c3c2da4e843e49e7d640d57, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chn_na_wave00
+    second: {fileID: 2100000, guid: d9ffe5ca10c7ddd4aabbead377b3a0de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chn_na_wave00.png
+    second: {fileID: 2100000, guid: da5644159cf232b469070c0d3e55c111, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chn_na_wood00
+    second: {fileID: 2100000, guid: c6a73e84829aac3469b95c81862452b8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chn_na_wood00.png
+    second: {fileID: 2100000, guid: 8edfc3aa115f10c479f64735a3d27e2e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chn_na_wood02
+    second: {fileID: 2100000, guid: ddf51442bef0bc24fbfddb1062a68eb1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chn_na_wood02.png
+    second: {fileID: 2100000, guid: c31ac470162544749bff075ff711a56a, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 0
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 1
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

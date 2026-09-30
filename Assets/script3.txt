@@ -1,0 +1,70 @@
+import bpy
+
+def get_texture_image_from_material(mat):
+    if mat and mat.use_nodes:
+        for node in mat.node_tree.nodes:
+            if node.type == 'TEX_IMAGE' and node.image:
+                return node.image
+    return None
+
+def collect_materials_from_collection(collection):
+    mats = set()
+    for obj in collection.objects:
+        if obj.type == 'MESH':
+            for mat in obj.data.materials:
+                if mat:
+                    mats.add(mat)
+    return mats
+
+def replace_material_in_objects(old_mat, new_mat, collections):
+    for col in collections:
+        for obj in col.objects:
+            if obj.type == 'MESH':
+                for i, mat in enumerate(obj.data.materials):
+                    if mat == old_mat:
+                        obj.data.materials[i] = new_mat
+
+def main():
+    col_name_1 = "Collection1"  # <-- set your collection names here
+    col_name_2 = "Collection2"
+
+    col1 = bpy.data.collections.get(col_name_1)
+    col2 = bpy.data.collections.get(col_name_2)
+
+    if not col1 or not col2:
+        print(f"One or both collections not found: '{col_name_1}', '{col_name_2}'")
+        return
+
+    # Get all materials in each collection
+    mats1 = collect_materials_from_collection(col1)
+    mats2 = collect_materials_from_collection(col2)
+
+    # Combine all mats to search duplicates
+    all_mats = list(mats1) + list(mats2)
+
+    # Group materials by their image filepath
+    mats_by_image = {}
+    for mat in all_mats:
+        img = get_texture_image_from_material(mat)
+        key = img.filepath if img else None
+        if key:
+            mats_by_image.setdefault(key, []).append(mat)
+
+    collections = [col1, col2]
+
+    # For each group of mats with the same texture image, unify them
+    for key, mats in mats_by_image.items():
+        if len(mats) > 1:
+            master_mat = mats[0]
+            duplicates = mats[1:]
+            for dup_mat in duplicates:
+                print(f"Replacing material '{dup_mat.name}' with '{master_mat.name}' for texture: {key}")
+                replace_material_in_objects(dup_mat, master_mat, collections)
+                # Optionally remove unused materials
+                if dup_mat.users == 0:
+                    bpy.data.materials.remove(dup_mat)
+
+    print("Materials unified between collections.")
+
+if __name__ == "__main__":
+    main()

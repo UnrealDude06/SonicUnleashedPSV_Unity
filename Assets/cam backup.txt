@@ -1,0 +1,98 @@
+
+public class UnleashedCamRedux : MonoBehaviour {
+public Transform target; // The target the camera will follow
+    public float followSmoothSpeed = 0.125f; // Smoothing speed for following the target
+    public float lookSmoothSpeed = 5f; // Smoothing speed for looking at the target
+    public float orbitDistance = 5.0f; // Distance from the target
+    public float orbitHeight = 2.0f; // Height above the target
+    public float transitionHeight = 5.0f; // Height during the transition phase
+    public float horizontalOffset = 1.5f; // Horizontal offset to adjust camera position when player moves out of view
+    public float transitionSpeed = 1.0f; // Speed of the transition
+    public float screenThreshold = 0.2f; // Screen threshold for triggering the transition
+	public float minTransitionDistance;
+    private Vector3 currentVelocity;
+    private bool isTransitioning = false;
+    private Vector3 transitionTargetPosition;
+    private Quaternion transitionTargetRotation;
+
+	SonicController sonic;
+	 Vector3 desiredPosition;
+	private void Start() {
+		sonic = target.GetComponent<SonicController>();
+		desiredPosition = target.position + target.forward * -orbitDistance + Vector3.up * orbitHeight;
+	}
+    private void LateUpdate()
+    {
+        if (isTransitioning)
+        {
+            TransitionCamera();
+        }
+        else
+        {
+            FollowPlayer();
+
+            // Check if the player is at the lower part of the screen to start the transition
+            Vector3 screenPoint = Camera.main.WorldToViewportPoint(target.position);
+            if ((Vector3.Distance(transform.position, target.position) < minTransitionDistance) || (screenPoint.y < screenThreshold))
+            {
+                StartTransition();
+            }
+        }
+    }
+
+    private void StartTransition()
+    {
+        isTransitioning = true;
+        // Calculate the intermediate position directly above the player
+        Vector3 upPosition = target.position + Vector3.up * transitionHeight;
+        // Calculate the final position behind the player
+        transitionTargetPosition = target.position + target.forward * -orbitDistance + Vector3.up * orbitHeight;
+        // Calculate the final rotation to look at the player
+        transitionTargetRotation = Quaternion.LookRotation(target.position - transitionTargetPosition);
+        // Start moving the camera up
+        transform.position = Vector3.SmoothDamp(transform.position, upPosition, ref currentVelocity, transitionSpeed);
+    }
+
+    private void TransitionCamera()
+    {
+        // Smoothly move the camera to the final position behind the player
+        transform.position = Vector3.SmoothDamp(transform.position, transitionTargetPosition, ref currentVelocity, transitionSpeed);
+
+        // Smoothly rotate the camera to look at the target
+        transform.rotation = Quaternion.Slerp(transform.rotation, transitionTargetRotation, lookSmoothSpeed * Time.deltaTime);
+
+        // Check if the camera is close to the final position and rotation
+        if (Vector3.Distance(transform.position, transitionTargetPosition) < 0.1f &&
+            Quaternion.Angle(transform.rotation, transitionTargetRotation) < 1f)
+        {
+            isTransitioning = false;
+        }
+    }
+
+    private async void FollowPlayer()
+    {
+        // Calculate the desired position based on the player's position, orbit distance, and height
+         desiredPosition = (Vector3.Distance(transform.position, target.position) > 8.33f) ? target.position + target.forward * -orbitDistance + Vector3.up * orbitHeight :  desiredPosition ;
+		
+		Debug.Log((Vector3.Distance(transform.position, target.position) ));
+		
+        // Adjust the camera's horizontal position if the player moves too far right or left
+        Vector3 screenPoint = Camera.main.WorldToViewportPoint(target.position);
+        if (screenPoint.x < 0.25f)
+        {
+            desiredPosition -= transform.right * horizontalOffset;
+        }
+        else if (screenPoint.x > 0.75f)
+        {
+            desiredPosition += transform.right * horizontalOffset;
+        }
+
+        // Smoothly move the camera to the desired position
+        Vector3 smoothedPosition = Vector3.SmoothDamp(transform.position +  ( isTransitioning ? new Vector3(0,2,0) : new Vector3(0,0,0)  ) , desiredPosition, ref currentVelocity, followSmoothSpeed);
+        transform.position = smoothedPosition;
+
+        // Smoothly rotate the camera to look at the target
+        Quaternion targetRotation = Quaternion.LookRotation(target.position - transform.position);
+        transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, lookSmoothSpeed * Time.deltaTime);
+    }
+}

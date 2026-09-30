@@ -1,0 +1,773 @@
+fileFormatVersion: 2
+guid: 3c2a24aeb12352e45827331444161f23
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: stg051_o_B02_Mesh_0000
+    100004: stg051_o_B02_Mesh_0001
+    100006: stg051_o_B02_Mesh_0002
+    100008: stg051_o_B02_Mesh_0003
+    100010: stg051_o_B02_Mesh_0004
+    100012: stg051_o_B02_Mesh_0005
+    100014: stg051_o_B02_Mesh_0006
+    100016: stg051_o_B02_Mesh_0007
+    100018: stg051_o_B02_Mesh_0008
+    100020: stg051_o_B02_Mesh_0009
+    100022: stg051_o_B02_Mesh_0010
+    100024: stg051_o_B02_Mesh_0011
+    100026: stg051_o_B02_Mesh_0012
+    100028: stg051_o_B02_Mesh_0013
+    100030: stg051_o_B02_Mesh_0014
+    100032: stg051_o_B02_Mesh_0015
+    100034: stg051_o_B02_Mesh_0016
+    100036: stg051_o_B02_Mesh_0017
+    100038: stg051_o_B02_Mesh_0018
+    100040: stg051_o_B02_Mesh_0019
+    100042: stg051_o_B02_Mesh_0020
+    100044: stg051_o_B02_Mesh_0021
+    100046: stg051_o_B02_Mesh_0022
+    100048: stg051_o_B02_Mesh_0023
+    100050: stg051_o_B03_Mesh_0003
+    100052: stg051_o_B03_Mesh_0004
+    100054: stg051_o_B03_Mesh_0005
+    100056: stg051_o_B03_Mesh_0008
+    100058: stg051_o_B03_Mesh_0015
+    100060: stg051_o_B03_Mesh_0017
+    100062: stg051_o_B03_Mesh_0018
+    100064: stg051_o_B03_Mesh_0022
+    100066: stg051_o_B04_Mesh_0000
+    100068: stg051_o_B06_Mesh_0000
+    100070: stg051_o_B06_Mesh_0002
+    100072: stg051_o_B08_Mesh_0000
+    100074: stg051_o_B09_Mesh_0000
+    100076: stg051_o_B09_Mesh_0002
+    100078: stg051_o_B09_Mesh_0007
+    100080: stg051_o_B09_Mesh_0012
+    100082: stg051_o_B10_Mesh_0001
+    100084: stg051_o_B11_Mesh_0008
+    100086: stg051_o_B11_Mesh_0013
+    100088: stg051_o_B11_Mesh_0014
+    100090: stg051_o_B13_Mesh_0004
+    100092: stg051_o_B13_Mesh_0005
+    100094: stg051_o_B15_Mesh_0002
+    100096: stg051_o_B17_Mesh_0000
+    100098: stg051_o_B17_Mesh_0002
+    100100: stg051_o_B20_Mesh_0018
+    100102: stg051_o_B20_Mesh_0020
+    100104: stg051_o_B20_Mesh_0021
+    100106: stg051_o_B31_Mesh_0011
+    100108: stg051_og_B02_Mesh_0000
+    100110: stg051_og_B08_Mesh_0001
+    100112: stg051_og_B20_Mesh_0001
+    100114: stg051_w_B07_Mesh_0000
+    400000: //RootNode
+    400002: stg051_o_B02_Mesh_0000
+    400004: stg051_o_B02_Mesh_0001
+    400006: stg051_o_B02_Mesh_0002
+    400008: stg051_o_B02_Mesh_0003
+    400010: stg051_o_B02_Mesh_0004
+    400012: stg051_o_B02_Mesh_0005
+    400014: stg051_o_B02_Mesh_0006
+    400016: stg051_o_B02_Mesh_0007
+    400018: stg051_o_B02_Mesh_0008
+    400020: stg051_o_B02_Mesh_0009
+    400022: stg051_o_B02_Mesh_0010
+    400024: stg051_o_B02_Mesh_0011
+    400026: stg051_o_B02_Mesh_0012
+    400028: stg051_o_B02_Mesh_0013
+    400030: stg051_o_B02_Mesh_0014
+    400032: stg051_o_B02_Mesh_0015
+    400034: stg051_o_B02_Mesh_0016
+    400036: stg051_o_B02_Mesh_0017
+    400038: stg051_o_B02_Mesh_0018
+    400040: stg051_o_B02_Mesh_0019
+    400042: stg051_o_B02_Mesh_0020
+    400044: stg051_o_B02_Mesh_0021
+    400046: stg051_o_B02_Mesh_0022
+    400048: stg051_o_B02_Mesh_0023
+    400050: stg051_o_B03_Mesh_0003
+    400052: stg051_o_B03_Mesh_0004
+    400054: stg051_o_B03_Mesh_0005
+    400056: stg051_o_B03_Mesh_0008
+    400058: stg051_o_B03_Mesh_0015
+    400060: stg051_o_B03_Mesh_0017
+    400062: stg051_o_B03_Mesh_0018
+    400064: stg051_o_B03_Mesh_0022
+    400066: stg051_o_B04_Mesh_0000
+    400068: stg051_o_B06_Mesh_0000
+    400070: stg051_o_B06_Mesh_0002
+    400072: stg051_o_B08_Mesh_0000
+    400074: stg051_o_B09_Mesh_0000
+    400076: stg051_o_B09_Mesh_0002
+    400078: stg051_o_B09_Mesh_0007
+    400080: stg051_o_B09_Mesh_0012
+    400082: stg051_o_B10_Mesh_0001
+    400084: stg051_o_B11_Mesh_0008
+    400086: stg051_o_B11_Mesh_0013
+    400088: stg051_o_B11_Mesh_0014
+    400090: stg051_o_B13_Mesh_0004
+    400092: stg051_o_B13_Mesh_0005
+    400094: stg051_o_B15_Mesh_0002
+    400096: stg051_o_B17_Mesh_0000
+    400098: stg051_o_B17_Mesh_0002
+    400100: stg051_o_B20_Mesh_0018
+    400102: stg051_o_B20_Mesh_0020
+    400104: stg051_o_B20_Mesh_0021
+    400106: stg051_o_B31_Mesh_0011
+    400108: stg051_og_B02_Mesh_0000
+    400110: stg051_og_B08_Mesh_0001
+    400112: stg051_og_B20_Mesh_0001
+    400114: stg051_w_B07_Mesh_0000
+    2100000: pet_iw_jimen01
+    2100002: pet_yu_bridge01
+    2100004: pet_iw_jimen04_alph
+    2100006: stg051_o_B02_Material_0000
+    2100008: pet_iw_mono01
+    2100010: pet_iw_build02
+    2100012: pet_iw_build03
+    2100014: pet_iw_kabe01
+    2100016: pet_iw_build01
+    2100018: pet_iw_build06
+    2100020: pet_iw_jimen12
+    2100022: pet_mu_plant
+    2100024: pet_iw_build021
+    2100026: pet_iw_build05
+    2100028: pet_iw_jimen031
+    2100030: pet_mu_obj
+    2100032: nk_build_a
+    2100034: pet_iw_jimen06
+    2100036: pet_mu_iwa01
+    2100038: pet_iw_jimen02.png
+    2100040: pet_iw_cliff02
+    2100042: pet_iw_build04_alph
+    2100044: pet_mu_plant_alph
+    2100046: nk_build_b
+    2100048: pet_mu_saku
+    2100050: pet_iw_grass01_alph
+    2100052: nk_shadow
+    2100054: pet_iw_jimen21.png
+    2100056: pet_iw_rock05.png
+    2100058: pet_iw_rock06.png
+    2100060: pet_mu_plant01
+    2100062: pet_iw_jta01.png
+    2100064: pet_mu_koiwa02
+    2100066: pet_mu_grass_alph
+    2100068: pet_mu_plant01_alph
+    2100070: stg051_o_B04_Material_0000
+    2100072: pet_kk_RippleMark.png.003
+    2100074: pet_iw_rock02
+    2100076: pet_mu_shrien
+    2100078: pet_mu_build04
+    2100080: pet_mu_build03
+    2100082: pet_iw_jimen11
+    2100084: pet_mu_koiwa01
+    2100086: pet_iw_jimen09.png
+    2100088: pet_iw_cliff01
+    2100090: pet_iw_gareki01
+    2100092: pet_iw_jimen20.png
+    2100094: pet_nm_hibi
+    2100096: pet_mu_mon
+    2100098: pet_iw_jimen17.png.006
+    2100100: pet_iw_rock03.png
+    2100102: pet_iw_jimen08.png.008
+    2100104: pet_iw_jimen07.png.009
+    2100106: pet_mu_stm02
+    2100108: pet_mu_stm01
+    2100110: pet_mu_shimen
+    2100112: pet_iw_suimen01_alph
+    2300000: stg051_o_B02_Mesh_0000
+    2300002: stg051_o_B02_Mesh_0001
+    2300004: stg051_o_B02_Mesh_0002
+    2300006: stg051_o_B02_Mesh_0003
+    2300008: stg051_o_B02_Mesh_0004
+    2300010: stg051_o_B02_Mesh_0005
+    2300012: stg051_o_B02_Mesh_0006
+    2300014: stg051_o_B02_Mesh_0007
+    2300016: stg051_o_B02_Mesh_0008
+    2300018: stg051_o_B02_Mesh_0009
+    2300020: stg051_o_B02_Mesh_0010
+    2300022: stg051_o_B02_Mesh_0011
+    2300024: stg051_o_B02_Mesh_0012
+    2300026: stg051_o_B02_Mesh_0013
+    2300028: stg051_o_B02_Mesh_0014
+    2300030: stg051_o_B02_Mesh_0015
+    2300032: stg051_o_B02_Mesh_0016
+    2300034: stg051_o_B02_Mesh_0017
+    2300036: stg051_o_B02_Mesh_0018
+    2300038: stg051_o_B02_Mesh_0019
+    2300040: stg051_o_B02_Mesh_0020
+    2300042: stg051_o_B02_Mesh_0021
+    2300044: stg051_o_B02_Mesh_0022
+    2300046: stg051_o_B02_Mesh_0023
+    2300048: stg051_o_B03_Mesh_0003
+    2300050: stg051_o_B03_Mesh_0004
+    2300052: stg051_o_B03_Mesh_0005
+    2300054: stg051_o_B03_Mesh_0008
+    2300056: stg051_o_B03_Mesh_0015
+    2300058: stg051_o_B03_Mesh_0017
+    2300060: stg051_o_B03_Mesh_0018
+    2300062: stg051_o_B03_Mesh_0022
+    2300064: stg051_o_B04_Mesh_0000
+    2300066: stg051_o_B06_Mesh_0000
+    2300068: stg051_o_B06_Mesh_0002
+    2300070: stg051_o_B08_Mesh_0000
+    2300072: stg051_o_B09_Mesh_0000
+    2300074: stg051_o_B09_Mesh_0002
+    2300076: stg051_o_B09_Mesh_0007
+    2300078: stg051_o_B09_Mesh_0012
+    2300080: stg051_o_B10_Mesh_0001
+    2300082: stg051_o_B11_Mesh_0008
+    2300084: stg051_o_B11_Mesh_0013
+    2300086: stg051_o_B11_Mesh_0014
+    2300088: stg051_o_B13_Mesh_0004
+    2300090: stg051_o_B13_Mesh_0005
+    2300092: stg051_o_B15_Mesh_0002
+    2300094: stg051_o_B17_Mesh_0000
+    2300096: stg051_o_B17_Mesh_0002
+    2300098: stg051_o_B20_Mesh_0018
+    2300100: stg051_o_B20_Mesh_0020
+    2300102: stg051_o_B20_Mesh_0021
+    2300104: stg051_o_B31_Mesh_0011
+    2300106: stg051_og_B02_Mesh_0000
+    2300108: stg051_og_B08_Mesh_0001
+    2300110: stg051_og_B20_Mesh_0001
+    2300112: stg051_w_B07_Mesh_0000
+    3300000: stg051_o_B02_Mesh_0000
+    3300002: stg051_o_B02_Mesh_0001
+    3300004: stg051_o_B02_Mesh_0002
+    3300006: stg051_o_B02_Mesh_0003
+    3300008: stg051_o_B02_Mesh_0004
+    3300010: stg051_o_B02_Mesh_0005
+    3300012: stg051_o_B02_Mesh_0006
+    3300014: stg051_o_B02_Mesh_0007
+    3300016: stg051_o_B02_Mesh_0008
+    3300018: stg051_o_B02_Mesh_0009
+    3300020: stg051_o_B02_Mesh_0010
+    3300022: stg051_o_B02_Mesh_0011
+    3300024: stg051_o_B02_Mesh_0012
+    3300026: stg051_o_B02_Mesh_0013
+    3300028: stg051_o_B02_Mesh_0014
+    3300030: stg051_o_B02_Mesh_0015
+    3300032: stg051_o_B02_Mesh_0016
+    3300034: stg051_o_B02_Mesh_0017
+    3300036: stg051_o_B02_Mesh_0018
+    3300038: stg051_o_B02_Mesh_0019
+    3300040: stg051_o_B02_Mesh_0020
+    3300042: stg051_o_B02_Mesh_0021
+    3300044: stg051_o_B02_Mesh_0022
+    3300046: stg051_o_B02_Mesh_0023
+    3300048: stg051_o_B03_Mesh_0003
+    3300050: stg051_o_B03_Mesh_0004
+    3300052: stg051_o_B03_Mesh_0005
+    3300054: stg051_o_B03_Mesh_0008
+    3300056: stg051_o_B03_Mesh_0015
+    3300058: stg051_o_B03_Mesh_0017
+    3300060: stg051_o_B03_Mesh_0018
+    3300062: stg051_o_B03_Mesh_0022
+    3300064: stg051_o_B04_Mesh_0000
+    3300066: stg051_o_B06_Mesh_0000
+    3300068: stg051_o_B06_Mesh_0002
+    3300070: stg051_o_B08_Mesh_0000
+    3300072: stg051_o_B09_Mesh_0000
+    3300074: stg051_o_B09_Mesh_0002
+    3300076: stg051_o_B09_Mesh_0007
+    3300078: stg051_o_B09_Mesh_0012
+    3300080: stg051_o_B10_Mesh_0001
+    3300082: stg051_o_B11_Mesh_0008
+    3300084: stg051_o_B11_Mesh_0013
+    3300086: stg051_o_B11_Mesh_0014
+    3300088: stg051_o_B13_Mesh_0004
+    3300090: stg051_o_B13_Mesh_0005
+    3300092: stg051_o_B15_Mesh_0002
+    3300094: stg051_o_B17_Mesh_0000
+    3300096: stg051_o_B17_Mesh_0002
+    3300098: stg051_o_B20_Mesh_0018
+    3300100: stg051_o_B20_Mesh_0020
+    3300102: stg051_o_B20_Mesh_0021
+    3300104: stg051_o_B31_Mesh_0011
+    3300106: stg051_og_B02_Mesh_0000
+    3300108: stg051_og_B08_Mesh_0001
+    3300110: stg051_og_B20_Mesh_0001
+    3300112: stg051_w_B07_Mesh_0000
+    4300000: stg051_og_B02_Mesh_0000
+    4300002: stg051_og_B08_Mesh_0001
+    4300004: stg051_og_B20_Mesh_0001
+    4300006: stg051_o_B02_Mesh_0000
+    4300008: stg051_o_B02_Mesh_0001
+    4300010: stg051_o_B02_Mesh_0002
+    4300012: stg051_o_B02_Mesh_0003
+    4300014: stg051_o_B02_Mesh_0004
+    4300016: stg051_o_B02_Mesh_0005
+    4300018: stg051_o_B02_Mesh_0006
+    4300020: stg051_o_B02_Mesh_0007
+    4300022: stg051_o_B02_Mesh_0008
+    4300024: stg051_o_B02_Mesh_0009
+    4300026: stg051_o_B02_Mesh_0010
+    4300028: stg051_o_B02_Mesh_0011
+    4300030: stg051_o_B02_Mesh_0012
+    4300032: stg051_o_B02_Mesh_0013
+    4300034: stg051_o_B02_Mesh_0014
+    4300036: stg051_o_B02_Mesh_0015
+    4300038: stg051_o_B02_Mesh_0016
+    4300040: stg051_o_B02_Mesh_0017
+    4300042: stg051_o_B02_Mesh_0018
+    4300044: stg051_o_B02_Mesh_0019
+    4300046: stg051_o_B02_Mesh_0020
+    4300048: stg051_o_B02_Mesh_0021
+    4300050: stg051_o_B02_Mesh_0022
+    4300052: stg051_o_B02_Mesh_0023
+    4300054: stg051_o_B03_Mesh_0003
+    4300056: stg051_o_B03_Mesh_0004
+    4300058: stg051_o_B03_Mesh_0005
+    4300060: stg051_o_B03_Mesh_0008
+    4300062: stg051_o_B03_Mesh_0015
+    4300064: stg051_o_B03_Mesh_0017
+    4300066: stg051_o_B03_Mesh_0018
+    4300068: stg051_o_B03_Mesh_0022
+    4300070: stg051_o_B04_Mesh_0000
+    4300072: stg051_o_B06_Mesh_0000
+    4300074: stg051_o_B06_Mesh_0002
+    4300076: stg051_o_B08_Mesh_0000
+    4300078: stg051_o_B09_Mesh_0000
+    4300080: stg051_o_B09_Mesh_0002
+    4300082: stg051_o_B09_Mesh_0007
+    4300084: stg051_o_B09_Mesh_0012
+    4300086: stg051_o_B10_Mesh_0001
+    4300088: stg051_o_B11_Mesh_0008
+    4300090: stg051_o_B11_Mesh_0013
+    4300092: stg051_o_B11_Mesh_0014
+    4300094: stg051_o_B13_Mesh_0004
+    4300096: stg051_o_B13_Mesh_0005
+    4300098: stg051_o_B15_Mesh_0002
+    4300100: stg051_o_B17_Mesh_0000
+    4300102: stg051_o_B17_Mesh_0002
+    4300104: stg051_o_B20_Mesh_0018
+    4300106: stg051_o_B20_Mesh_0020
+    4300108: stg051_o_B20_Mesh_0021
+    4300110: stg051_o_B31_Mesh_0011
+    4300112: stg051_w_B07_Mesh_0000
+    6400000: stg051_o_B02_Mesh_0000
+    6400002: stg051_o_B02_Mesh_0001
+    6400004: stg051_o_B02_Mesh_0002
+    6400006: stg051_o_B02_Mesh_0003
+    6400008: stg051_o_B02_Mesh_0004
+    6400010: stg051_o_B02_Mesh_0005
+    6400012: stg051_o_B02_Mesh_0006
+    6400014: stg051_o_B02_Mesh_0007
+    6400016: stg051_o_B02_Mesh_0008
+    6400018: stg051_o_B02_Mesh_0009
+    6400020: stg051_o_B02_Mesh_0010
+    6400022: stg051_o_B02_Mesh_0011
+    6400024: stg051_o_B02_Mesh_0012
+    6400026: stg051_o_B02_Mesh_0013
+    6400028: stg051_o_B02_Mesh_0014
+    6400030: stg051_o_B02_Mesh_0015
+    6400032: stg051_o_B02_Mesh_0016
+    6400034: stg051_o_B02_Mesh_0017
+    6400036: stg051_o_B02_Mesh_0018
+    6400038: stg051_o_B02_Mesh_0019
+    6400040: stg051_o_B02_Mesh_0020
+    6400042: stg051_o_B02_Mesh_0021
+    6400044: stg051_o_B02_Mesh_0022
+    6400046: stg051_o_B02_Mesh_0023
+    6400048: stg051_o_B03_Mesh_0003
+    6400050: stg051_o_B03_Mesh_0004
+    6400052: stg051_o_B03_Mesh_0005
+    6400054: stg051_o_B03_Mesh_0008
+    6400056: stg051_o_B03_Mesh_0015
+    6400058: stg051_o_B03_Mesh_0017
+    6400060: stg051_o_B03_Mesh_0018
+    6400062: stg051_o_B03_Mesh_0022
+    6400064: stg051_o_B04_Mesh_0000
+    6400066: stg051_o_B06_Mesh_0000
+    6400068: stg051_o_B06_Mesh_0002
+    6400070: stg051_o_B08_Mesh_0000
+    6400072: stg051_o_B09_Mesh_0000
+    6400074: stg051_o_B09_Mesh_0002
+    6400076: stg051_o_B09_Mesh_0007
+    6400078: stg051_o_B09_Mesh_0012
+    6400080: stg051_o_B10_Mesh_0001
+    6400082: stg051_o_B11_Mesh_0008
+    6400084: stg051_o_B11_Mesh_0013
+    6400086: stg051_o_B11_Mesh_0014
+    6400088: stg051_o_B13_Mesh_0004
+    6400090: stg051_o_B13_Mesh_0005
+    6400092: stg051_o_B15_Mesh_0002
+    6400094: stg051_o_B17_Mesh_0000
+    6400096: stg051_o_B17_Mesh_0002
+    6400098: stg051_o_B20_Mesh_0018
+    6400100: stg051_o_B20_Mesh_0020
+    6400102: stg051_o_B20_Mesh_0021
+    6400104: stg051_o_B31_Mesh_0011
+    6400106: stg051_og_B02_Mesh_0000
+    6400108: stg051_og_B08_Mesh_0001
+    6400110: stg051_og_B20_Mesh_0001
+    6400112: stg051_w_B07_Mesh_0000
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: nk_build_a
+    second: {fileID: 2100000, guid: dfd95b7df1e32be49897017d64f29378, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: nk_build_b
+    second: {fileID: 2100000, guid: 69c466d758c7b414c870a9eb32ea0fe3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: nk_shadow
+    second: {fileID: 2100000, guid: 242ed3df72db76241bee8c5c7d1c571e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pet_iw_build01
+    second: {fileID: 2100000, guid: 9d62994c91ba21042a09dd15200c1ba3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pet_iw_build02
+    second: {fileID: 2100000, guid: 933bdf5bde5aaf04bbc30a347cb117c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pet_iw_build021
+    second: {fileID: 2100000, guid: 07864d83b21a899459b152402eb32423, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pet_iw_build03
+    second: {fileID: 2100000, guid: 765d60337d70f554aa454510ee2ec258, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pet_iw_build04_alph
+    second: {fileID: 2100000, guid: 2c5c4de33ee7e8449beca7cb03ef2486, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pet_iw_build05
+    second: {fileID: 2100000, guid: 3e7250ee99e443245be57134a2e0de65, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pet_iw_build06
+    second: {fileID: 2100000, guid: af39cab17fce14740b8cf673976d4d88, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pet_iw_cliff01
+    second: {fileID: 2100000, guid: 78d645142b1f31748a9b5f6cc21656e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pet_iw_cliff02
+    second: {fileID: 2100000, guid: 78d645142b1f31748a9b5f6cc21656e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pet_iw_gareki01
+    second: {fileID: 2100000, guid: 5213cbcb802959846aac00ae1b462c2c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pet_iw_grass01_alph
+    second: {fileID: 2100000, guid: ec6ccf8e4719f464aafe786760987ff7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pet_iw_jimen01
+    second: {fileID: 2100000, guid: b9ef90fc8012e66478ee62d3d7b668e3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pet_iw_jimen02.png
+    second: {fileID: 2100000, guid: 3b95195641d87ca418b32d9e969cf4bf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pet_iw_jimen031
+    second: {fileID: 2100000, guid: 504f8fdd6a90fbc42af8508f3027daf7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pet_iw_jimen04_alph
+    second: {fileID: 2100000, guid: 5304a4fdd47936c4eb26162cbd0df369, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pet_iw_jimen06
+    second: {fileID: 2100000, guid: 17fa24a05266f624eb27e38da3519d5b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pet_iw_jimen07.png.009
+    second: {fileID: 2100000, guid: 86e0bb6bbb136374c8d4120c8d6d17de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pet_iw_jimen08.png.008
+    second: {fileID: 2100000, guid: b075dd7add9332d4c871ba4c322825e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pet_iw_jimen09.png
+    second: {fileID: 2100000, guid: 1411e91dd7bbc00499bcfc9eebbc4ff8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pet_iw_jimen11
+    second: {fileID: 2100000, guid: e42436d6fbcd00249b5eade1d5390000, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pet_iw_jimen12
+    second: {fileID: 2100000, guid: 7195badf0efc34643b7e6d32d175df87, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pet_iw_jimen17.png.006
+    second: {fileID: 2100000, guid: 8c35a9edad78a5747bdd8f4aecc15d81, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pet_iw_jimen20.png
+    second: {fileID: 2100000, guid: 4b60058bd4ec512459f3fe6067d5d442, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pet_iw_jimen21.png
+    second: {fileID: 2100000, guid: 5c17e646b09e53d47944d8c2d929f0d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pet_iw_jta01.png
+    second: {fileID: 2100000, guid: ab47e75138f65c04a908e82c1ed96a24, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pet_iw_kabe01
+    second: {fileID: 2100000, guid: 99713887b002e8a47b123d5280f0493f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pet_iw_mono01
+    second: {fileID: 2100000, guid: ae719b27836967342b7bc9d89cf96453, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pet_iw_rock02
+    second: {fileID: 2100000, guid: 4646602e948f3f341a2fdf1a1003f648, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pet_iw_rock03.png
+    second: {fileID: 2100000, guid: f6ea362fd0da6e34194048c78c09d3bc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pet_iw_rock05.png
+    second: {fileID: 2100000, guid: d77559f1e91c8e2489128f58d31e8ca9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pet_iw_rock06.png
+    second: {fileID: 2100000, guid: 5c6947f9a8b776a4e998177bae449159, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pet_iw_suimen01_alph
+    second: {fileID: 2100000, guid: dfcc4a6fc597faa4197e5771318593e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pet_kk_RippleMark.png.003
+    second: {fileID: 2100000, guid: dbc7e30d47134654495d482332f77087, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pet_mu_build03
+    second: {fileID: 2100000, guid: e5d598f39df70dd459373f77fa7f42f5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pet_mu_build04
+    second: {fileID: 2100000, guid: 04d36ca4815c3b74dbc0daf83e9c6106, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pet_mu_grass_alph
+    second: {fileID: 2100000, guid: f653eea532454f44f85d6d88352552ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pet_mu_iwa01
+    second: {fileID: 2100000, guid: 06c4b82a5ceedc042862b1cbaf346eaf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pet_mu_koiwa01
+    second: {fileID: 2100000, guid: 17dd6998dfaca6341ad8b62fcc3a2a35, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pet_mu_koiwa02
+    second: {fileID: 2100000, guid: 86197508712c2584bbfd02bd33efea49, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pet_mu_mon
+    second: {fileID: 2100000, guid: 82d016c01a1cbf34a858f06d95bebe04, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pet_mu_obj
+    second: {fileID: 2100000, guid: 32f558fcef46ce1458d811d294932c87, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pet_mu_plant
+    second: {fileID: 2100000, guid: a94b13de51835a34593eb328d8d59722, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pet_mu_plant01
+    second: {fileID: 2100000, guid: aa3c38f7a4a56ff4d998ab564cc516e3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pet_mu_plant01_alph
+    second: {fileID: 2100000, guid: c3c5fc9516d094b468d8c97f4619d0a4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pet_mu_plant_alph
+    second: {fileID: 2100000, guid: 48c2f3c22b5032b4b97c4e16a6318193, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pet_mu_saku
+    second: {fileID: 2100000, guid: 0578e5df0f60ea24197cb595258da00f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pet_mu_shimen
+    second: {fileID: 2100000, guid: 81becaedcf9513c45a14632e0032176a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pet_mu_shrien
+    second: {fileID: 2100000, guid: 72f8f13d434732f429f03060e94b3274, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pet_mu_stm01
+    second: {fileID: 2100000, guid: f3f1ba118a1c8ec469e75bace916c2ec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pet_mu_stm02
+    second: {fileID: 2100000, guid: 3b74aca072614e64382dfc875a3a03b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pet_nm_hibi
+    second: {fileID: 2100000, guid: f8f49c99edd65cc428e37e2b002cda4f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pet_yu_bridge01
+    second: {fileID: 2100000, guid: 018a4eb27b0cfc24d82875e1db03850e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stg051_o_B02_Material_0000
+    second: {fileID: 2100000, guid: ea97fc26828ac6c46ac4718a207d114e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stg051_o_B04_Material_0000
+    second: {fileID: 2100000, guid: 6ac40f7714edd8f498455a10812be202, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 0
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 1
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

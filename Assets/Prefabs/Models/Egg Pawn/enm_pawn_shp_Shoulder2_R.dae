@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA version="1.5.0" xmlns="http://www.collada.org/2008/03/COLLADASchema">
+	<asset>
+		<contributor>
+			<authoring_tool>BrawlBox</authoring_tool>
+		</contributor>
+		<created>2022-11-10T17:29:56Z</created>
+		<modified>2022-11-10T17:29:56Z</modified>
+		<unit meter="0.01" name="centimeter" />
+		<up_axis>Y_UP</up_axis>
+	</asset>
+	<library_images>
+		<image id="enm_pawn_shpcos_dif_SD-image" name="enm_pawn_shpcos_dif_SD">
+			<init_from>
+				<ref>enm_pawn_shpcos_dif_SD.png</ref>
+			</init_from>
+		</image>
+		<image id="enm_pawn_shpcos_ref_SD-image" name="enm_pawn_shpcos_ref_SD">
+			<init_from>
+				<ref>enm_pawn_shpcos_ref_SD.png</ref>
+			</init_from>
+		</image>
+		<image id="enm_pawn_shpcos_spc_SD-image" name="enm_pawn_shpcos_spc_SD">
+			<init_from>
+				<ref>enm_pawn_shpcos_spc_SD.png</ref>
+			</init_from>
+		</image>
+		<image id="enm_pawn_shpcos_spr_SD-image" name="enm_pawn_shpcos_spr_SD">
+			<init_from>
+				<ref>enm_pawn_shpcos_spr_SD.png</ref>
+			</init_from>
+		</image>
+	</library_images>
+	<library_materials>
+		<material id="enm_eggpawn_shpcos__enMetalPunch__D__">
+			<instance_effect url="#enm_eggpawn_shpcos__enMetalPunch__D__-fx" />
+		</material>
+	</library_materials>
+	<library_effects>
+		<effect id="enm_eggpawn_shpcos__enMetalPunch__D__-fx" name="enm_eggpawn_shpcos__enMetalPunch__D__">
+			<profile_COMMON>
+				<newparam sid="enm_pawn_shpcos_dif_SD-surface">
+					<surface type="2D">
+						<init_from>
+							<ref>enm_pawn_shpcos_dif_SD-image</ref>
+						</init_from>
+					</surface>
+				</newparam>
+				<newparam sid="enm_pawn_shpcos_dif_SD-sampler">
+					<sampler2D>
+						<source>enm_pawn_shpcos_dif_SD-surface</source>
+						<instance_image url="#enm_pawn_shpcos_dif_SD-image" />
+						<wrap_s>WRAP</wrap_s>
+						<wrap_t>WRAP</wrap_t>
+						<minfilter>LINEAR_MIPMAP_LINEAR</minfilter>
+						<magfilter>LINEAR</magfilter>
+					</sampler2D>
+				</newparam>
+				<technique sid="COMMON">
+					<phong>
+						<diffuse>
+							<texture texture="enm_pawn_shpcos_dif_SD-sampler" texcoord="TEXCOORD0" />
+						</diffuse>
+					</phong>
+				</technique>
+			</profile_COMMON>
+		</effect>
+	</library_effects>
+	<library_geometries>
+		<geometry id="polygon0" name="polygon0">
+			<mesh>
+				<source id="polygon0_Positions">
+					<float_array id="polygon0_PosArr" count="30">-2.104492 -0.9302979 -1.497314 -1.749023 0.4902344 -1.168701 -2.559082 -0.9302979 0 -1.749023 0.4902344 1.168701 -2.104492 -0.9302979 1.497314 0.1435547 -0.5050049 1.866089 0.2788086 0.809082 -1.348755 0.1435547 -0.5050049 -1.866089 0.206665 1.154297 0 0.2788086 0.809082 1.348755</float_array>
+					<technique_common>
+						<accessor source="#polygon0_PosArr" count="10" stride="3">
+							<param name="X" type="float" />
+							<param name="Y" type="float" />
+							<param name="Z" type="float" />
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="polygon0_Normals">
+					<float_array id="polygon0_NormArr" count="30">-0.6764526 0.3224487 -0.6621704 -0.5533447 0.663269 -0.5038452 -0.9206543 0.3903809 0 -0.5533447 0.663269 0.5038452 -0.6764526 0.3224487 0.6621704 -0.1650391 0.3359375 0.9273071 -0.1746216 0.7511597 -0.6365967 -0.1650391 0.3359375 -0.9273071 -0.2269897 0.973877 0 -0.1746216 0.7511597 0.6365967</float_array>
+					<technique_common>
+						<accessor source="#polygon0_NormArr" count="10" stride="3">
+							<param name="X" type="float" />
+							<param name="Y" type="float" />
+							<param name="Z" type="float" />
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="polygon0_UVs0">
+					<float_array id="polygon0_UVArr0" count="28">0.7288208 0.816925 0.7288208 0.9927063 0.8062744 0.816925 0.883728 0.9927063 0.883728 0.816925 0.9945068 0.816925 0.618042 0.9927063 0.618042 0.816925 0.480835 0.9904785 0.5428772 0.9904785 0.4891052 0.859436 0.5966492 0.859436 0.9945068 0.9927063 0.60495 0.9904785</float_array>
+					<technique_common>
+						<accessor source="#polygon0_UVArr0" count="14" stride="2">
+							<param name="S" type="float" />
+							<param name="T" type="float" />
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="polygon0_UVs1">
+					<float_array id="polygon0_UVArr1" count="28">0.7288208 0.816925 0.7288208 0.9927063 0.8062744 0.816925 0.883728 0.9927063 0.883728 0.816925 0.9945068 0.816925 0.618042 0.9927063 0.618042 0.816925 0.480835 0.9904785 0.5428772 0.9904785 0.4891052 0.859436 0.5966492 0.859436 0.9945068 0.9927063 0.60495 0.9904785</float_array>
+					<technique_common>
+						<accessor source="#polygon0_UVArr1" count="14" stride="2">
+							<param name="S" type="float" />
+							<param name="T" type="float" />
+						</accessor>
+					</technique_common>
+				</source>
+				<vertices id="polygon0_Vertices">
+					<input semantic="POSITION" source="#polygon0_Positions" />
+				</vertices>
+				<triangles material="enm_eggpawn_shpcos__enMetalPunch__D__" count="10">
+					<input semantic="VERTEX" source="#polygon0_Vertices" offset="0" />
+					<input semantic="NORMAL" source="#polygon0_Normals" offset="1" />
+					<input semantic="TEXCOORD" source="#polygon0_UVs0" set="0" offset="2" />
+					<input semantic="TEXCOORD" source="#polygon0_UVs1" set="1" offset="3" />
+					<p>2 2 2 2 1 1 1 1 0 0 0 0 3 3 3 3 1 1 1 1 2 2 2 2 4 4 4 4 3 3 3 3 2 2 2 2 5 5 5 5 3 3 3 3 4 4 4 4 7 7 7 7 1 1 1 1 6 6 6 6 0 0 0 0 1 1 1 1 7 7 7 7 1 1 10 10 8 8 9 9 6 6 8 8 3 3 11 11 8 8 9 9 1 1 10 10 3 3 3 3 5 5 5 5 9 9 12 12 9 9 13 13 8 8 9 9 3 3 11 11</p>
+				</triangles>
+			</mesh>
+		</geometry>
+	</library_geometries>
+	<library_controllers>
+		<controller id="polygon0_Controller">
+			<skin source="#polygon0">
+				<bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+				<source id="polygon0_Joints">
+					<Name_array id="polygon0_JointArr" count="1">enm_pawn_shp_Shoulder2_R</Name_array>
+					<technique_common>
+						<accessor source="#polygon0_JointArr" count="1">
+							<param name="JOINT" type="Name" />
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="polygon0_Matrices">
+					<float_array id="polygon0_MatArr" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+					<technique_common>
+						<accessor source="#polygon0_MatArr" count="1" stride="16">
+							<param type="float4x4" />
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="polygon0_Weights">
+					<float_array id="polygon0_WeightArr" count="1">1</float_array>
+					<technique_common>
+						<accessor source="#polygon0_WeightArr" count="1">
+							<param type="float" />
+						</accessor>
+					</technique_common>
+				</source>
+				<joints>
+					<input semantic="JOINT" source="#polygon0_Joints" />
+					<input semantic="INV_BIND_MATRIX" source="#polygon0_Matrices" />
+				</joints>
+				<vertex_weights count="10">
+					<input semantic="JOINT" offset="0" source="#polygon0_Joints" />
+					<input semantic="WEIGHT" offset="1" source="#polygon0_Weights" />
+					<vcount>1 1 1 1 1 1 1 1 1 1</vcount>
+					<v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</v>
+				</vertex_weights>
+			</skin>
+		</controller>
+	</library_controllers>
+	<library_visual_scenes>
+		<visual_scene id="RootNode" name="RootNode">
+			<node id="enm_pawn_shp_Shoulder2_R" name="enm_pawn_shp_Shoulder2_R" sid="enm_pawn_shp_Shoulder2_R" type="JOINT" />
+			<node id="polygon0" name="polygon0" type="NODE">
+				<instance_controller url="#polygon0_Controller">
+					<skeleton>#enm_pawn_shp_Shoulder2_R</skeleton>
+					<bind_material>
+						<technique_common>
+							<instance_material symbol="enm_eggpawn_shpcos__enMetalPunch__D__" target="#enm_eggpawn_shpcos__enMetalPunch__D__">
+								<bind_vertex_input semantic="TEXCOORD0" input_semantic="TEXCOORD" input_set="0" />
+								<bind_vertex_input semantic="TEXCOORD0" input_semantic="TEXCOORD" input_set="0" />
+								<bind_vertex_input semantic="TEXCOORD0" input_semantic="TEXCOORD" input_set="0" />
+								<bind_vertex_input semantic="TEXCOORD1" input_semantic="TEXCOORD" input_set="1" />
+							</instance_material>
+						</technique_common>
+					</bind_material>
+				</instance_controller>
+			</node>
+		</visual_scene>
+	</library_visual_scenes>
+	<scene>
+		<instance_visual_scene url="#RootNode" />
+	</scene>
+</COLLADA>

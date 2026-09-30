@@ -1,0 +1,89 @@
+import bpy
+
+UV_MAP_NAME = "MainUV"
+
+def rename_uv_maps():
+    for obj in bpy.data.objects:
+        if obj.type == 'MESH':
+            for uv_layer in obj.data.uv_layers:
+                uv_layer.name = UV_MAP_NAME
+
+def get_texture_image_from_material(mat):
+    # Return the first Image datablock from a Principled BSDF material node tree
+    if mat and mat.use_nodes:
+        for node in mat.node_tree.nodes:
+            if node.type == 'TEX_IMAGE' and node.image:
+                return node.image
+    return None
+
+def get_texture_key(obj):
+    # Get texture image used by the first material of the object
+    # You can extend this if you want to check all materials or handle multiple textures
+    if obj.type != 'MESH':
+        return None
+    if not obj.data.materials:
+        return None
+    for mat in obj.data.materials:
+        img = get_texture_image_from_material(mat)
+        if img:
+            return img.filepath
+    return None
+
+def join_objects(obj_list):
+    if len(obj_list) < 2:
+        return obj_list[0] if obj_list else None
+
+    # Deselect all objects
+    bpy.ops.object.select_all(action='DESELECT')
+
+    for obj in obj_list:
+        obj.select_set(True)
+    bpy.context.view_layer.objects.active = obj_list[0]
+
+    bpy.ops.object.join()
+    return bpy.context.view_layer.objects.active
+
+def remove_duplicate_materials(obj):
+    # Keep track of unique materials by their image texture filepath
+    unique_mats = {}
+    mats_to_remove = []
+
+    for mat in obj.data.materials:
+        img = get_texture_image_from_material(mat)
+        key = img.filepath if img else None
+        if key in unique_mats:
+            mats_to_remove.append(mat)
+        else:
+            unique_mats[key] = mat
+
+    # Remove duplicates from the object's material slots and data
+    for mat in mats_to_remove:
+        idx = obj.data.materials.find(mat.name)
+        if idx != -1:
+            obj.data.materials.pop(index=idx)
+        if mat.users == 0:
+            bpy.data.materials.remove(mat)
+
+def main():
+    rename_uv_maps()
+
+    # Group objects by their texture image filepath
+    texture_groups = {}
+
+    for obj in bpy.data.objects:
+        tex_key = get_texture_key(obj)
+        if tex_key:
+            texture_groups.setdefault(tex_key, []).append(obj)
+
+    # Join objects that share the same texture
+    for tex_path, objs in texture_groups.items():
+        if len(objs) > 1:
+            print(f"Joining {len(objs)} objects with texture: {tex_path}")
+            joined_obj = join_objects(objs)
+            if joined_obj:
+                remove_duplicate_materials(joined_obj)
+
+    print("Done combining meshes by texture and cleaning materials.")
+
+if __name__ == "__main__":
+    main()

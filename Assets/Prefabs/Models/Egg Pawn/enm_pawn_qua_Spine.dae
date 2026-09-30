@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA version="1.5.0" xmlns="http://www.collada.org/2008/03/COLLADASchema">
+	<asset>
+		<contributor>
+			<authoring_tool>BrawlBox</authoring_tool>
+		</contributor>
+		<created>2022-11-10T17:31:08Z</created>
+		<modified>2022-11-10T17:31:08Z</modified>
+		<unit meter="0.01" name="centimeter" />
+		<up_axis>Y_UP</up_axis>
+	</asset>
+	<library_images>
+		<image id="enm_pawn_quacos_dif_SD-image" name="enm_pawn_quacos_dif_SD">
+			<init_from>
+				<ref>enm_pawn_quacos_dif_SD.png</ref>
+			</init_from>
+		</image>
+		<image id="enm_pawn_quacos_ref_SD-image" name="enm_pawn_quacos_ref_SD">
+			<init_from>
+				<ref>enm_pawn_quacos_ref_SD.png</ref>
+			</init_from>
+		</image>
+		<image id="enm_pawn_quacos_spc_SD-image" name="enm_pawn_quacos_spc_SD">
+			<init_from>
+				<ref>enm_pawn_quacos_spc_SD.png</ref>
+			</init_from>
+		</image>
+		<image id="enm_pawn_quacos_spr_SD-image" name="enm_pawn_quacos_spr_SD">
+			<init_from>
+				<ref>enm_pawn_quacos_spr_SD.png</ref>
+			</init_from>
+		</image>
+	</library_images>
+	<library_materials>
+		<material id="enm_eggpawn_quacos__enMetal__D__">
+			<instance_effect url="#enm_eggpawn_quacos__enMetal__D__-fx" />
+		</material>
+	</library_materials>
+	<library_effects>
+		<effect id="enm_eggpawn_quacos__enMetal__D__-fx" name="enm_eggpawn_quacos__enMetal__D__">
+			<profile_COMMON>
+				<newparam sid="enm_pawn_quacos_dif_SD-surface">
+					<surface type="2D">
+						<init_from>
+							<ref>enm_pawn_quacos_dif_SD-image</ref>
+						</init_from>
+					</surface>
+				</newparam>
+				<newparam sid="enm_pawn_quacos_dif_SD-sampler">
+					<sampler2D>
+						<source>enm_pawn_quacos_dif_SD-surface</source>
+						<instance_image url="#enm_pawn_quacos_dif_SD-image" />
+						<wrap_s>WRAP</wrap_s>
+						<wrap_t>WRAP</wrap_t>
+						<minfilter>LINEAR_MIPMAP_LINEAR</minfilter>
+						<magfilter>LINEAR</magfilter>
+					</sampler2D>
+				</newparam>
+				<technique sid="COMMON">
+					<phong>
+						<diffuse>
+							<texture texture="enm_pawn_quacos_dif_SD-sampler" texcoord="TEXCOORD0" />
+						</diffuse>
+					</phong>
+				</technique>
+			</profile_COMMON>
+		</effect>
+	</library_effects>
+	<library_geometries>
+		<geometry id="polygon0" name="polygon0">
+			<mesh>
+				<source id="polygon0_Positions">
+					<float_array id="polygon0_PosArr" count="36">2.360596 2.968506 5.235352 3.579102 2.968506 4.463135 2.586914 2.277588 5.605469 3.80542 2.277588 4.833252 2.809082 1.032959 6.01001 4.027588 1.032959 5.237793 -2.360596 2.968506 5.235352 -2.586914 2.277588 5.605469 -3.579102 2.968506 4.463135 -3.80542 2.277588 4.833252 -4.027588 1.032959 5.237793 -2.809082 1.032959 6.01001</float_array>
+					<technique_common>
+						<accessor source="#polygon0_PosArr" count="12" stride="3">
+							<param name="X" type="float" />
+							<param name="Y" type="float" />
+							<param name="Z" type="float" />
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="polygon0_Normals">
+					<float_array id="polygon0_NormArr" count="24">0.4533081 0.5317993 0.715332 0.4804077 0.440918 0.7581177 0.4799805 0.442688 0.7573853 0.5019531 0.3471069 0.7921753 -0.4533081 0.5317993 0.715332 -0.4804077 0.440918 0.7581177 -0.4799805 0.442688 0.7573853 -0.5019531 0.3471069 0.7921753</float_array>
+					<technique_common>
+						<accessor source="#polygon0_NormArr" count="8" stride="3">
+							<param name="X" type="float" />
+							<param name="Y" type="float" />
+							<param name="Z" type="float" />
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="polygon0_UVs0">
+					<float_array id="polygon0_UVArr0" count="12">0.5354614 0.2434387 0.366272 0.2434387 0.5354614 0.1516418 0.366272 0.1516418 0.5354614 0.0006408691 0.366272 0.0006408691</float_array>
+					<technique_common>
+						<accessor source="#polygon0_UVArr0" count="6" stride="2">
+							<param name="S" type="float" />
+							<param name="T" type="float" />
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="polygon0_UVs1">
+					<float_array id="polygon0_UVArr1" count="12">0.5354614 0.2434387 0.366272 0.2434387 0.5354614 0.1516418 0.366272 0.1516418 0.5354614 0.0006408691 0.366272 0.0006408691</float_array>
+					<technique_common>
+						<accessor source="#polygon0_UVArr1" count="6" stride="2">
+							<param name="S" type="float" />
+							<param name="T" type="float" />
+						</accessor>
+					</technique_common>
+				</source>
+				<vertices id="polygon0_Vertices">
+					<input semantic="POSITION" source="#polygon0_Positions" />
+				</vertices>
+				<triangles material="enm_eggpawn_quacos__enMetal__D__" count="8">
+					<input semantic="VERTEX" source="#polygon0_Vertices" offset="0" />
+					<input semantic="NORMAL" source="#polygon0_Normals" offset="1" />
+					<input semantic="TEXCOORD" source="#polygon0_UVs0" set="0" offset="2" />
+					<input semantic="TEXCOORD" source="#polygon0_UVs1" set="1" offset="3" />
+					<p>2 1 2 2 1 0 1 1 0 0 0 0 3 2 3 3 1 0 1 1 2 1 2 2 4 3 4 4 3 2 3 3 2 1 2 2 5 3 5 5 3 2 3 3 4 3 4 4 8 4 1 1 7 5 2 2 6 4 0 0 9 6 3 3 7 5 2 2 8 4 1 1 11 7 4 4 9 6 3 3 10 7 5 5 7 5 2 2 9 6 3 3 11 7 4 4</p>
+				</triangles>
+			</mesh>
+		</geometry>
+	</library_geometries>
+	<library_controllers>
+		<controller id="polygon0_Controller">
+			<skin source="#polygon0">
+				<bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+				<source id="polygon0_Joints">
+					<Name_array id="polygon0_JointArr" count="1">enm_pawn_qua_Spine</Name_array>
+					<technique_common>
+						<accessor source="#polygon0_JointArr" count="1">
+							<param name="JOINT" type="Name" />
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="polygon0_Matrices">
+					<float_array id="polygon0_MatArr" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+					<technique_common>
+						<accessor source="#polygon0_MatArr" count="1" stride="16">
+							<param type="float4x4" />
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="polygon0_Weights">
+					<float_array id="polygon0_WeightArr" count="1">1</float_array>
+					<technique_common>
+						<accessor source="#polygon0_WeightArr" count="1">
+							<param type="float" />
+						</accessor>
+					</technique_common>
+				</source>
+				<joints>
+					<input semantic="JOINT" source="#polygon0_Joints" />
+					<input semantic="INV_BIND_MATRIX" source="#polygon0_Matrices" />
+				</joints>
+				<vertex_weights count="12">
+					<input semantic="JOINT" offset="0" source="#polygon0_Joints" />
+					<input semantic="WEIGHT" offset="1" source="#polygon0_Weights" />
+					<vcount>1 1 1 1 1 1 1 1 1 1 1 1</vcount>
+					<v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</v>
+				</vertex_weights>
+			</skin>
+		</controller>
+	</library_controllers>
+	<library_visual_scenes>
+		<visual_scene id="RootNode" name="RootNode">
+			<node id="enm_pawn_qua_Spine" name="enm_pawn_qua_Spine" sid="enm_pawn_qua_Spine" type="JOINT" />
+			<node id="polygon0" name="polygon0" type="NODE">
+				<instance_controller url="#polygon0_Controller">
+					<skeleton>#enm_pawn_qua_Spine</skeleton>
+					<bind_material>
+						<technique_common>
+							<instance_material symbol="enm_eggpawn_quacos__enMetal__D__" target="#enm_eggpawn_quacos__enMetal__D__">
+								<bind_vertex_input semantic="TEXCOORD0" input_semantic="TEXCOORD" input_set="0" />
+								<bind_vertex_input semantic="TEXCOORD0" input_semantic="TEXCOORD" input_set="0" />
+								<bind_vertex_input semantic="TEXCOORD0" input_semantic="TEXCOORD" input_set="0" />
+								<bind_vertex_input semantic="TEXCOORD1" input_semantic="TEXCOORD" input_set="1" />
+							</instance_material>
+						</technique_common>
+					</bind_material>
+				</instance_controller>
+			</node>
+		</visual_scene>
+	</library_visual_scenes>
+	<scene>
+		<instance_visual_scene url="#RootNode" />
+	</scene>
+</COLLADA>

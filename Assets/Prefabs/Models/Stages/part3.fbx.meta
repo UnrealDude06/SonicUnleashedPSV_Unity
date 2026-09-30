@@ -1,0 +1,342 @@
+fileFormatVersion: 2
+guid: 4912378b796d74f4d9617623e8738a46
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: stg011_terr_124
+    100004: stg011_terr_164
+    100006: stg011_terr_169
+    100008: stg011_terr_59
+    100010: stg011_terr_62
+    400000: //RootNode
+    400002: stg011_terr_124
+    400004: stg011_terr_164
+    400006: stg011_terr_169
+    400008: stg011_terr_59
+    400010: stg011_terr_62
+    2100000: myk_dm_mortarwall_d
+    2100002: myk_dm_housebase_a
+    2100004: myk_dm_mortarwall_road_a
+    2100006: myk_dm_stoneroad_a
+    2100008: myk_dm_planterbase_a
+    2100010: myk_dm_stg011_grass_a
+    2100012: myk_dm_bluedoor_d
+    2100014: myk_dm_bluewindow_a
+    2100016: myk_dm_reddoor_d
+    2100018: myk_dm_reddoor_e
+    2100020: myk_sw_stonewall02
+    2100022: myk_dm_redwindow_a
+    2100024: myk_dm_redwoodfence_a
+    2100026: myk_dm_greenwindow_a
+    2100028: myk_dm_greendoor_d
+    2100030: myk_dm_greenwoodfence_a
+    2100032: myk_dm_reddoor_c
+    2100034: myk_dm_bluedoor_c
+    2100036: myk_dm_mortardart_a
+    2100038: myk_dm_tamastone_a
+    2100040: myk_dm_lamp_a
+    2100042: myk_dm_potflower_a
+    2100044: myk_dm_bluewoodfence_a
+    2100046: myk_dm_bluedoor_e
+    2100048: myk_dm_reddoor_b
+    2100050: myk_dm_mortarwall_b
+    2100052: myk_dm_woodbox_a
+    2100054: myk_dm_flowerbase_a
+    2100056: myk_sw_builparts_a
+    2100058: myk_tk_windmill_bell_a
+    2100060: myk_dm_windmillmaterial_a
+    2100062: myk_tk_windmill_low
+    2100064: myk_ya_wall_c
+    2100066: myk_sw_stg011_rawngrass_a
+    2100068: myk_dm_greendoor_b
+    2100070: myk_dm_plant_b
+    2100072: myk_dm_treetrunk_a
+    2100074: myk_dm_treeleaf_a
+    2300000: stg011_terr_124
+    2300002: stg011_terr_164
+    2300004: stg011_terr_169
+    2300006: stg011_terr_59
+    2300008: stg011_terr_62
+    3300000: stg011_terr_124
+    3300002: stg011_terr_164
+    3300004: stg011_terr_169
+    3300006: stg011_terr_59
+    3300008: stg011_terr_62
+    4300000: stg011_terr_124
+    4300002: stg011_terr_59
+    4300004: stg011_terr_164
+    4300006: stg011_terr_169
+    4300008: stg011_terr_62
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myk_dm_bluedoor_c
+    second: {fileID: 2100000, guid: 829d7b31c79f82841afab8e693b4ed0e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myk_dm_bluedoor_d
+    second: {fileID: 2100000, guid: fc4315cad5d4edb47b204937f4084e93, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myk_dm_bluedoor_e
+    second: {fileID: 2100000, guid: 6c1ab5769f4a35b48868b1abe07a2224, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myk_dm_bluewindow_a
+    second: {fileID: 2100000, guid: c88702a92c22a3e42800ff4efb73dc29, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myk_dm_bluewoodfence_a
+    second: {fileID: 2100000, guid: 1284e8bfb1709a049a9ab8afbb1780b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myk_dm_flowerbase_a
+    second: {fileID: 2100000, guid: 440f0f522d79f2641bc888e51be70d9d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myk_dm_greendoor_b
+    second: {fileID: 2100000, guid: 7b6574c93dd0c1d49adb879381e9da81, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myk_dm_greendoor_d
+    second: {fileID: 2100000, guid: 5fd8e76ea4cb8734698b7b0f767df3da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myk_dm_greenwindow_a
+    second: {fileID: 2100000, guid: 06107876c3e2cfe4a93e597c202fe2be, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myk_dm_greenwoodfence_a
+    second: {fileID: 2100000, guid: 2d07036ba8ddc8d44a65e9e7c9c713cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myk_dm_housebase_a
+    second: {fileID: 2100000, guid: 30b630b03d369ca4b8f6ff7a66f1be7a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myk_dm_lamp_a
+    second: {fileID: 2100000, guid: f02d31cb730aea04680d16a3da2b59f7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myk_dm_mortardart_a
+    second: {fileID: 2100000, guid: d559040f3b1448c4abc9457fdd2f638e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myk_dm_mortarwall_b
+    second: {fileID: 2100000, guid: 45654161ff57982489edb5eef54243f4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myk_dm_mortarwall_d
+    second: {fileID: 2100000, guid: 9385f869db8f76240ba4e7d481f96472, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myk_dm_mortarwall_road_a
+    second: {fileID: 2100000, guid: 97f19085f7cb5bb41baa03e71fdedbdd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myk_dm_plant_b
+    second: {fileID: 2100000, guid: d53864f256f039945ab8aedcf3a14b87, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myk_dm_planterbase_a
+    second: {fileID: 2100000, guid: 7c2f9fd39e075dc42b23286182cb612a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myk_dm_potflower_a
+    second: {fileID: 2100000, guid: a3096069eeb12fa4eb57ebf269a5e9f7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myk_dm_reddoor_b
+    second: {fileID: 2100000, guid: 35077a99e7c19aa46a89045121727ad4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myk_dm_reddoor_c
+    second: {fileID: 2100000, guid: 02f75dd729d74be47a649975f57e64a8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myk_dm_reddoor_d
+    second: {fileID: 2100000, guid: 31677763a1e625146beac4ab1bba9201, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myk_dm_reddoor_e
+    second: {fileID: 2100000, guid: f0de08b8e3c407e41949870bbb8c8d55, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myk_dm_redwindow_a
+    second: {fileID: 2100000, guid: f0a0c4a78aeffa24ea737eb5200c6f7b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myk_dm_redwoodfence_a
+    second: {fileID: 2100000, guid: da6255e552366744caba2d5fba470b31, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myk_dm_stg011_grass_a
+    second: {fileID: 2100000, guid: 8a82cc5cb1d563f4789504984710874c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myk_dm_stoneroad_a
+    second: {fileID: 2100000, guid: 2b30e354b82c37b49b020b438866eac7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myk_dm_tamastone_a
+    second: {fileID: 2100000, guid: 6fd53a14f71b39f4fb90f3e49733691a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myk_dm_treeleaf_a
+    second: {fileID: 2100000, guid: 52b55d340b20fab4ab9c289dcccda8d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myk_dm_treetrunk_a
+    second: {fileID: 2100000, guid: 94bbbdeeb3248774b9fa0c99e103614b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myk_dm_windmillmaterial_a
+    second: {fileID: 2100000, guid: a2ab2681efba384479a5ba68809780a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myk_dm_woodbox_a
+    second: {fileID: 2100000, guid: 8ff7e5bed6fcb9f4b858d863c19094b1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myk_sw_builparts_a
+    second: {fileID: 2100000, guid: fedbe114db55d53468128b82b8ea1ca4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myk_sw_stg011_rawngrass_a
+    second: {fileID: 2100000, guid: 9582342ce6b139b40a243f6b6f711de3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myk_sw_stonewall02
+    second: {fileID: 2100000, guid: cbfe68c59334c4e42ae93ea26cc11d9f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myk_tk_windmill_bell_a
+    second: {fileID: 2100000, guid: 32579e083a5923f4bb1806b1cdb7d80c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myk_tk_windmill_low
+    second: {fileID: 2100000, guid: 47ab7a08692c9ae45ac56db2ca88dcf6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: myk_ya_wall_c
+    second: {fileID: 2100000, guid: c8012b5967e407946a778877baf66c1c, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 2
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 1
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 10
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

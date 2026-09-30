@@ -1,0 +1,148 @@
+fileFormatVersion: 2
+guid: 86a453e90057c4444a96f7a54e0b5874
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: stg011_terr_04
+    100004: stg011_terr_122
+    100006: stg011_terr_281.001
+    100008: stg011_terr_282
+    100010: stg011_terr_311
+    100012: stg011_terr_41
+    100014: stg011_terr_44
+    100016: stg011_terr_46
+    100018: stg011_terr_50
+    100020: stg011_terr_86
+    400000: //RootNode
+    400002: stg011_terr_04
+    400004: stg011_terr_122
+    400006: stg011_terr_281.001
+    400008: stg011_terr_282
+    400010: stg011_terr_311
+    400012: stg011_terr_41
+    400014: stg011_terr_44
+    400016: stg011_terr_46
+    400018: stg011_terr_50
+    400020: stg011_terr_86
+    2100000: myk_dm_stg011_grass_a
+    2100002: myk_dm_redwoodfence_a
+    2100004: myk_sw_stonewall02
+    2100006: myk_dm_stg011_stonecriff_b
+    2100008: myk_dm_stg011_stonecriff_a
+    2100010: myk_dm_greenwoodfence_a
+    2100012: myk_sw_stg011_rawngrass_a
+    2100014: myk_dm_bluewoodfence_a
+    2100016: myk_sw_stg011_grass02
+    2300000: stg011_terr_04
+    2300002: stg011_terr_122
+    2300004: stg011_terr_281.001
+    2300006: stg011_terr_282
+    2300008: stg011_terr_311
+    2300010: stg011_terr_41
+    2300012: stg011_terr_44
+    2300014: stg011_terr_46
+    2300016: stg011_terr_50
+    2300018: stg011_terr_86
+    3300000: stg011_terr_04
+    3300002: stg011_terr_122
+    3300004: stg011_terr_281.001
+    3300006: stg011_terr_282
+    3300008: stg011_terr_311
+    3300010: stg011_terr_41
+    3300012: stg011_terr_44
+    3300014: stg011_terr_46
+    3300016: stg011_terr_50
+    3300018: stg011_terr_86
+    4300000: stg011_terr_281.001
+    4300002: stg011_terr_46
+    4300004: stg011_terr_122
+    4300006: stg011_terr_86
+    4300008: stg011_terr_50
+    4300010: stg011_terr_41
+    4300012: stg011_terr_44
+    4300014: stg011_terr_282
+    4300016: stg011_terr_04
+    4300018: stg011_terr_311
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

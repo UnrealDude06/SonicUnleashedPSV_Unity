@@ -1,0 +1,19 @@
+import bpy
+# move selection into new collection
+# Name of the target collection (change as needed)
+target_collection_name = "YourTargetCollection"
+
+# Get or create the target collection
+if target_collection_name in bpy.data.collections:
+    target_collection = bpy.data.collections[target_collection_name]
+else:
+    target_collection = bpy.data.collections.new(target_collection_name)
+    bpy.context.scene.collection.children.link(target_collection)
+
+# Move selected objects to the target collection
+for obj in bpy.context.selected_objects:
+    # Remove from all current collections first (optional)
+    for col in obj.users_collection:
+        col.objects.unlink(obj)
+    # Link to target collection
+    target_collection.objects.link(obj)

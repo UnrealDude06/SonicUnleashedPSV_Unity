@@ -1,0 +1,102 @@
+public GameObject player;
+SonicController sonic;
+public Transform followPos;
+public Vector3 offset;
+public float damping;
+
+  // Use this for initialization
+  void Start () {
+  sonic = player.GetComponent<SonicController>();
+  }
+
+    // Update is called once per frame
+    void LateUpdate () {
+    // We apply the initial rotation to the camera.
+    Quaternion initialRotation = Quaternion.Euler(new Vector3(20,0,0));
+
+    if(sonic.isGrounded){
+      if(sonic.speed > 18 || sonic.sonic_col.current_action != SonicObejctInteraction.action.none)
+      {
+      damping = 6f;
+      }
+      else
+      {
+        damping = 3f;
+      }
+    }
+
+
+    if (Vector3.Distance(player.transform.position,transform.position) > 5  )
+    {
+
+      // Calculate the target position with offset
+      Vector3 targetPosition = followPos.transform.position + offset;
+
+      // Now we calculate the camera transformed axes.
+      Vector3 forward = transform.rotation * Vector3.forward;
+      Vector3 right = transform.rotation * Vector3.right;
+      Vector3 up = transform.rotation * Vector3.up;
+
+      // We then calculate the offset in the 
+      // camera's coordinate frame.
+      Vector3 targetPos = player.transform.position;
+      Vector3 desiredPosition = targetPos
+      + forward * offset.z
+      + right * offset.x
+      + up * offset.y;
+
+      // Finally, we change the position of the camera, 
+      // not directly, but by applying Lerp.
+      Vector3 position = Vector3.Lerp(transform.position,
+      desiredPosition,
+      Time.deltaTime * damping);
+
+      transform.position = position;
+
+      // Allow rotation tracking of the player
+      Quaternion targetRotation = player.transform.rotation * initialRotation;
+      transform.rotation = Quaternion.Lerp(transform.rotation, targetRotation, Time.deltaTime * damping);
+      
+    }
+    else
+    {
+
+      // Calculate the target position with offset
+      Vector3 targetPosition = followPos.transform.position + offset;
+
+      // Now we calculate the camera transformed axes.
+      Vector3 forward = transform.rotation * Vector3.forward;
+      Vector3 right = transform.rotation * Vector3.right;
+      Vector3 up = transform.rotation * Vector3.up;
+
+      // We then calculate the offset in the 
+      // camera's coordinate frame.
+      Vector3 targetPos = player.transform.position;
+      Vector3 desiredPosition = targetPos
+      + forward * offset.z
+      + right * offset.x
+      + up * offset.y;
+      // Finally, we change the position of the camera, 
+      // not directly, but by applying Lerp.
+      Vector3 position = Vector3.Lerp(transform.position,
+      desiredPosition,
+      Time.deltaTime * damping);
+
+      transform.position = position;
+
+      
+      // Stop camera position movement and make it face the player
+      Vector3 targetDirection = player.transform.position - transform.position;
+      Quaternion targetRotation = Quaternion.LookRotation(targetDirection);
+
+      // Clamp rotation on the x-axis
+      Vector3 eulerAngles = targetRotation.eulerAngles;
+      float clampedXAngle = Mathf.Clamp(eulerAngles.x, -75, 75);
+      eulerAngles.x = clampedXAngle;
+      targetRotation = Quaternion.Euler(eulerAngles);
+
+      // Smoothly interpolate the rotation towards the target rotation
+      transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, damping * Time.deltaTime);
+      }
+    }
+}

@@ -1,0 +1,9 @@
+14 rings = one full boost bar
+1 action chain = half a boost bar aka 7 rings
+when player get every 30 /90/120 so on/ rings, increase full boost gauge by one everytime player
+hits that ring mark
+max is 6 boost bars
+
+for every second you drift you get half, for two secinds you get full and thats it, no more
+
+
